@@ -21,6 +21,7 @@ def part2(infile='input.txt'):
     totals = sorted(get_sums(parse_elves(input)))
     return sum(totals[-3:])
 
+
 # %%
 print(f'{part1()=}')
 print(f'{part2()=}')
