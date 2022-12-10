@@ -37,7 +37,7 @@ def part2(fname="input2.txt"):
         for line in f:
             parse_line(line)
 
-    idx = 1
+    idx = 0
     for ii in range(240 // 40):
         for jj in range(40):
             if abs(idx % 40 - states[idx]) <= 1:
